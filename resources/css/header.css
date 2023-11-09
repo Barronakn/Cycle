@@ -1,0 +1,34 @@
+@media screen and (max-width:1070px) {
+    .bg-linear-header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #274d5a;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .nav-bar {
+        background: white;
+        display: none;
+    }
+
+    .navbar {
+        background: white;
+    }
+
+    .d-block {
+        display: block;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .bg-linear-header.px-32 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .text-5xl {
+        font-size: 35px;
+    }
+}

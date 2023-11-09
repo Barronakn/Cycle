@@ -1,0 +1,23 @@
+@media screen and (max-width:1024px) {
+    .news .newslist {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .news .newslist.px-24,
+    .news .width {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .news .width {
+        width: 100%;
+    }
+
+    .my-16 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}

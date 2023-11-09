@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1700px !important;
+}
+
+body::-webkit-scrollbar {
+    background-color: #274d5a;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #f7c17b;
+    border-radius: 25px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1700px !important;
+}
+
+::selection {
+    background-color: #f7c17b;
+    color: white;
+}
+
+::-moz-selection {
+    background-color: #f7c17b;
+    color: white;
+}
+
+.primary {
+    color: #274d5a;
+}
+
+.secondary {
+    background-color: #274d5a;
+}
+
+.hoverSecondary:hover {
+    background-color: #274d5a;
+}
+
+.about-bg {
+    background: url("../../public/assets/images/about-bg.png");
+    background-repeat: no-repeat;
+}
+
+.bg-linear {
+    background: linear-gradient(-13deg, #ffffff 29%, #274d5a 20%);
+}
+
+.bg-linear-header {
+    background: linear-gradient(90deg, #ffffff 33.3%, transparent 20%);
+}
+
+.h {
+    height: 1px;
+}
+
+.bg {
+    background-color: #f7c17b;
+    transform: perspective(300px) rotateY(15deg);
+}
+
+.about .bg {
+    background-color: #ffffff;
+    width: 400px;
+    height: 350px;
+}
+
+.bg-size-1 {
+    height: 525px;
+    width: 300px;
+}
+
+.bg-size-2,
+.bg-size-3 {
+    height: 475px;
+    width: 270px;
+}
+
+.new:hover .legend {
+    color: black;
+    transition: 0.5s ease;
+}
+
+.none {
+    display: none;
+}

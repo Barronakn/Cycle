@@ -1,0 +1,33 @@
+@media screen and (max-width:1024px) {
+    .about .my-20 {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about .left img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .about .left img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about .my-20 {
+        margin-bottom: 80px;
+    }
+
+    .about .bg {
+        width: 270px;
+        height: 250px;
+    }
+
+    .about .width {
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

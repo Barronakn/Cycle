@@ -1,0 +1,60 @@
+@media screen and (max-width:1024px) {
+    .cycles {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    .cycles .cycle {
+        flex-direction: column;
+    }
+
+    .cycles .cycle .width {
+        width: 100%;
+    }
+
+    .mt-40 {
+        margin-top: 80px;
+    }
+
+    .my-72 {
+        margin-top: 125px;
+        margin-bottom: 175px;
+    }
+
+    .left {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .bg {
+        transform: perspective(500px) rotateY(15deg);
+    }
+
+    .bg-size-1,
+    .bg-size-2,
+    .bg-size-3 {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .cycles {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .text-4xl {
+        font-size: 20px;
+    }
+
+    .bg-size-2,
+    .bg-size-3 {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .bg-size-1 {
+        height: 400px;
+    }
+}

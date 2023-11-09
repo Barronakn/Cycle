@@ -1,0 +1,17 @@
+@media screen and (max-width:768px) {
+    .contact .width {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .contact.px-32 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .contact .width {
+        font-size: 17px;
+        line-height: normal;
+    }
+}
